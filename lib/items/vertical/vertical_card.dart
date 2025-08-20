@@ -67,8 +67,7 @@ class _Verti_CardState extends State<Verti_Card> {
                 children: [
                   // ? title
                   Text(
-                    widget.articleModel.title ??
-                        '',
+                    widget.articleModel.title ,
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
