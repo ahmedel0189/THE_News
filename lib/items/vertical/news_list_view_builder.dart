@@ -74,10 +74,11 @@ class _NewsListViewBuilderState
         else {
           return _buildSliverMessage(
             child: Text(
-              'No Data',
+              'Error: ${snapshot.error}',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
+                color: Colors.red,
               ),
             ),
           ); // لو مفيش بيانات
